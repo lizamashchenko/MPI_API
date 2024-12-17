@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/lizok/CLionProjects/mpi_api_mashchenko/prod-cons_async.cpp
-src/myMPI.h
-/home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.h
-chrono
--
-thread
--
-
 /home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.cpp
 myMPI.h
 /home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.h
@@ -40,5 +32,11 @@ iostream
 cstring
 -
 map
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
 -
 

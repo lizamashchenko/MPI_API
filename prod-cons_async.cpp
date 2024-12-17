@@ -18,7 +18,10 @@ int main(int argc, char** argv) {
         }
         std::cout << "Rank 0: Asynchronous send complete." << std::endl;
     } else if (rank == 1) { // Consumer
+        std::cout << "in consumer" << std::endl;
         mpi.MPI_Barrier();  // Synchronize
+        std::cout << "pass barrier consumer" << std::endl;
+
         mpi.MPI_Irecv(0);  // Receive data asynchronously from Rank 0
 
         // Wait for the operation to complete

@@ -14,12 +14,15 @@
 #include <iostream>
 #include <cstring>
 #include <map>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 
 #define SHM_NAME "/shm_mpi_example"     // Shared memory name
 #define SEM_BARRIER_NAME "/sem_barrier" // Barrier semaphore
 #define SEM_EMPTY_NAME "/sem_empty"     // Empty buffer semaphore
 #define SEM_FULL_NAME "/sem_full"       // Full buffer semaphore
-#define SHM_SIZE sizeof(int)            // Size of shared memory (one int)
+#define SHM_SIZE 4096           // Size of shared memory (one int)
 
 struct Config {
     int mode;                 // 0 - shared memory, 1 - network
@@ -44,6 +47,12 @@ public:
     int MPI_Irecv(int src);
     bool MPI_Test(int request);
 
+    // network sockets
+    void init_network(int argc, char** argv);
+    void send_network(int data);
+    int recv_network();
+
+
     int get_size();
     int get_rank();
 
@@ -51,6 +60,11 @@ private:
     int rank;
     int world_size;
     int *shared_data;
+
+    int socket_fd;
+    std::vector<int> client_sockets;
+    struct sockaddr_in server_addr;
+    struct sockaddr_in client_addr;
 
     sem_t *sem_barrier;
     sem_t *sem_empty;
