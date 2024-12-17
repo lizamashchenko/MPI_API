@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpi_api_mashchenko",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "consumer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-consumer-Debug-36dd0b0bc1a8d3ea6103.json",
+					"name" : "consumer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prod-cons::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prod-cons-Debug-7e8cded052c8f1ad83ff.json",
+					"name" : "prod-cons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "producer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-producer-Debug-d98de4e211d08675b5e8.json",
+					"name" : "producer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lizok/CLionProjects/mpi_api_mashchenko/cmake-build-debug",
+		"source" : "/home/lizok/CLionProjects/mpi_api_mashchenko"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

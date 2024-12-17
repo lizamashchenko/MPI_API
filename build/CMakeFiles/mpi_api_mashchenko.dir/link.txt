@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++     CMakeFiles/mpi_api_mashchenko.dir/prod-cons_test.cpp.o CMakeFiles/mpi_api_mashchenko.dir/src/myMPI.cpp.o  -o mpi_api_mashchenko  -lpthread 

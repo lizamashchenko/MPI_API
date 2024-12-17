@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++     CMakeFiles/prod-cons.dir/prod-cons_test.cpp.o CMakeFiles/prod-cons.dir/src/myMPI.cpp.o  -o prod-cons  -lpthread -lrt 

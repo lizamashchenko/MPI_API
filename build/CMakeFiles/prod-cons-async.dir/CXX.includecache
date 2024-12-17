@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizok/CLionProjects/mpi_api_mashchenko/prod-cons_async.cpp
+src/myMPI.h
+/home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.h
+chrono
+-
+thread
+-
+
+/home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.cpp
+myMPI.h
+/home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.h
+fstream
+-
+thread
+-
+
+/home/lizok/CLionProjects/mpi_api_mashchenko/src/myMPI.h
+atomic
+-
+fcntl.h
+-
+semaphore.h
+-
+sys/mman.h
+-
+unistd.h
+-
+vector
+-
+iostream
+-
+cstring
+-
+map
+-
+

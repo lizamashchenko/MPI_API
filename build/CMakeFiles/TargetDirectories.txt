@@ -1,0 +1,4 @@
+/home/lizok/CLionProjects/mpi_api_mashchenko/build/CMakeFiles/rebuild_cache.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/build/CMakeFiles/edit_cache.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/build/CMakeFiles/prod-cons-async.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/build/CMakeFiles/prod-cons.dir

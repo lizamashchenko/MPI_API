@@ -1,0 +1,5 @@
+/home/lizok/CLionProjects/mpi_api_mashchenko/cmake-build-debug/CMakeFiles/consumer.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/cmake-build-debug/CMakeFiles/producer.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/cmake-build-debug/CMakeFiles/prod-cons.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lizok/CLionProjects/mpi_api_mashchenko/cmake-build-debug/CMakeFiles/rebuild_cache.dir

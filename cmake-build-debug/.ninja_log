@@ -1,0 +1,5 @@
+# ninja log v6
+1	539	1734421487338448761	CMakeFiles/mpi_api_mashchenko.dir/prod-cons_test.cpp.o	1c1f12f9d499b58f
+1	20	1734426832412214235	build.ninja	27ec864bc3727f4f
+1	859	1734421822623077602	CMakeFiles/mpi_api_mashchenko.dir/src/myMPI.cpp.o	33d44a699c6beaf4
+860	937	1734421823479183016	mpi_api_mashchenko	39c8b48319ee884c

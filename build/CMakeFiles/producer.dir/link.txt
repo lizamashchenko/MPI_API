@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++     CMakeFiles/producer.dir/producer.cpp.o CMakeFiles/producer.dir/src/myMPI.cpp.o  -o producer  -lpthread -lrt 
